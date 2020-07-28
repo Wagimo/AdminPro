@@ -14,7 +14,7 @@ export class IncrementadorComponent implements OnInit  {
 
 
   //renombrar el nombre del input!!
-  @Input('valor') progreso:number = 50;
+  @Input('porcentaje') progreso:number = 50;
   @Input('class') colorButton :string = "btn-primary";
 
   @Output('valor') valorIncremento: EventEmitter<number> = new EventEmitter();
